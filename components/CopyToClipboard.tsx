@@ -1,7 +1,9 @@
 // remove tailwind css classes if you don't want to use them.
 import React, { useState } from "react";
 
-export default function CopyBtnDemo({ textToCopy = "to be or not to be" }) {
+export default function CopyBtnDemo({
+  textToCopy = "Either you run the day or the day runs you",
+}) {
   const [copied, setCopied] = useState(false);
 
   const copyToClipboard = () => {
