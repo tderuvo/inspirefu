@@ -24,7 +24,7 @@ export default function CopyBtnDemo({
   const btnStyle = copied ? "bg-gray-500 text-white" : "";
 
   return (
-    <div className="text-center my-5">
+    <div className="text-center py-100 my-5">
       <button
         onClick={copyToClipboard}
         className={

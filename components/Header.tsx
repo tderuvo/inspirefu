@@ -5,12 +5,10 @@ type Props = {};
 
 export default function Header({}: Props) {
   return (
-    <div>
-      <div className="bg-[rgb(39,39,39)]">
-        <h1 className="uppercase  py-5 text-center text-white max-w-7xl text-2xl tracking-widest">
-          InspireFu
-        </h1>
+    <header className="uppercase  py-5 text-center text-white max-w-7xl text-2xl tracking-widest">
+      <div>
+        <h1>InspireFu</h1>
       </div>
-    </div>
+    </header>
   );
 }
