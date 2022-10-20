@@ -16,7 +16,7 @@ export default function CopyBtnDemo({
         }, 2000);
       },
       (err) => {
-        console.log("failed to copy", err.mesage);
+        console.log("failed to copy", err.message);
       }
     );
   };
@@ -24,7 +24,7 @@ export default function CopyBtnDemo({
   const btnStyle = copied ? "bg-gray-500 text-white" : "";
 
   return (
-    <div className="text-center py-100 my-5">
+    <div className="text-center py-100 my-5 z-40">
       <button
         onClick={copyToClipboard}
         className={
