@@ -7,7 +7,8 @@ export default function Header({}: Props) {
   return (
     <header className="uppercase  py-5 text-center text-white max-w-7xl text-2xl tracking-widest">
       <div>
-        <h1>InspireFu</h1>
+        <h1>Motifu</h1>
+        <p>Daily motivation</p>
       </div>
     </header>
   );
