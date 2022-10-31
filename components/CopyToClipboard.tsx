@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 export default function CopyBtnDemo({
-  textToCopy = "Either you run the day or the day runs you",
+  textToCopy = "At the end of hardship comes happiness",
 }) {
   const [copied, setCopied] = useState(false);
 
