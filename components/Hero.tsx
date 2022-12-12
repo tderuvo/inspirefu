@@ -7,7 +7,7 @@ type Props = {};
 
 export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
-    words: ["How high you fly is derived from how big you think"],
+    words: ["Light tomorrow with today"],
     loop: true,
     delaySpeed: 2000,
   });
